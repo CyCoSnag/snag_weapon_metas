@@ -3,8 +3,8 @@ A FiveM resource that allows server owners to change game weapon's metadata. Thi
 damage types, ammo count, defaults, camera angles, aiming, recoil, weapon effects, smoke effects, etc.
 
 ## Installation
-Rename the resource by removing the "-main" from the name. 
-Put this resource into your servers resources folder. 
+Unzip the resource. 
+Put the resource into your servers resources folder. 
 Add the resource name to your server startup config. 
-Modify the script to your liking. 
+Modify the resource to your liking. 
 Start server. 
