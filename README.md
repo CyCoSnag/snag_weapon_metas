@@ -14,12 +14,13 @@ Change how shotguns work: I've edited the default pump shotgun to work as a less
 
 [Imgur: The magic of the Internet](https://imgur.com/a/kTKCMsM)
 
-You can change them however you want!
-[Imgur: The magic of the Internet](https://imgur.com/a/vyUKPSm)
+You can change them however you want! 
+
+[Imgur: The magic of the Internet](https://imgur.com/a/vyUKPSm) 
+
 [Imgur: The magic of the Internet](https://imgur.com/a/7MGTMru)
 
-The version I'm releasing here includes the original GTAV meta files, fresh and un-edited for you here: 
-[CyCoSnag/snag_weapon_metas: A FiveM resource that allows server owners to change game weapon's metadata. This can be used to change damage, damage types, ammo count, defaults, camera angles, aiming, recoil, weapon effects, smoke effects, etc. (github.com)](https://github.com/CyCoSnag/snag_weapon_metas)
+The version I'm releasing here includes the original GTAV meta files.
 
 I will be re-releasing this later on as a paid resource with balance changes more suitable in a role play server. This will include the sniper and less-than-lethal changes showcased here.
 
