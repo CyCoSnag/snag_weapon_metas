@@ -20,15 +20,15 @@ https://imgur.com/a/vyUKPSm
 
 https://imgur.com/a/7MGTMru
 
-The version I'm releasing here includes the original GTAV meta files.
+The version I'm releasing here includes the original GTAV meta files and DLC meta files.
 
 I will be re-releasing this later on as a paid resource with balance changes more suitable in a role play server. This will include the sniper and less-than-lethal changes showcased here.
 
 Installation:
-Unzip the resource. 
-Remove the "-main" from the resource folder name.
-Put the resource into your servers resources folder. 
-Add the resource name to your server startup config. 
-Modify the resource to your liking. 
-Start server. 
-Enjoy! 
+Download the latest release: https://github.com/CyCoSnag/snag_weapon_metas/releases/tag/snag_weapon_metas
+Unzip the resource.
+Put the resource into your servers resources folder.
+Add the resource name to your server startup config.
+Modify the resource to your liking.
+Start server.
+Enjoy!
