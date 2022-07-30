@@ -10,6 +10,7 @@ description 'Weapon Meta\'s by Snag'
 
 files {
   'metas/vehicle_weapons/*.meta', 
+  'metas/weaponcomponents/*.meta', 
   'metas/weapons/*.meta',
 }
 
