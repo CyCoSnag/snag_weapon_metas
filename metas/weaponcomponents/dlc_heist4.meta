@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+    <Item type="CWeaponComponentReloadLoopedData">
+      <Name>RELOAD_LOOPED</Name>
+      <Sections>
+        <Item>
+          <Name />
+		  <PedIdleReloadClipId>RELOAD_START</PedIdleReloadClipId>
+		  <PedIdleReloadEmptyClipId>RELOAD_START</PedIdleReloadEmptyClipId>
+		  <PedAimReloadClipId>RELOAD_START</PedAimReloadClipId>
+		  <PedAimReloadEmptyClipId>RELOAD_START</PedAimReloadEmptyClipId>
+		  <PedLowLeftCoverReloadClipId>RELOAD_START</PedLowLeftCoverReloadClipId>
+		  <PedLowRightCoverReloadClipId>RELOAD_START</PedLowRightCoverReloadClipId>
+		  <PedLowCoverReloadEmptyClipId>RELOAD_START</PedLowCoverReloadEmptyClipId>
+		  <WeaponIdleReloadClipId>W_RELOAD_START</WeaponIdleReloadClipId>
+		  <WeaponIdleReloadEmptyClipId>W_RELOAD_START</WeaponIdleReloadEmptyClipId>
+		  <WeaponAimReloadClipId>W_RELOAD_START</WeaponAimReloadClipId>
+		  <WeaponAimReloadEmptyClipId>W_RELOAD_START</WeaponAimReloadEmptyClipId>
+		  <WeaponLowLeftCoverReloadClipId>W_RELOAD_START</WeaponLowLeftCoverReloadClipId>
+		  <WeaponLowRightCoverReloadClipId>W_RELOAD_START</WeaponLowRightCoverReloadClipId>
+		  <WeaponLowCoverReloadEmptyClipId>W_RELOAD_START</WeaponLowCoverReloadEmptyClipId>
+        </Item>
+        <Item>
+          <Name />
+		  <PedIdleReloadClipId>RELOAD_LOOP</PedIdleReloadClipId>
+		  <PedIdleReloadEmptyClipId>RELOAD_LOOP</PedIdleReloadEmptyClipId>
+		  <PedAimReloadClipId>RELOAD_LOOP</PedAimReloadClipId>
+		  <PedAimReloadEmptyClipId>RELOAD_LOOP</PedAimReloadEmptyClipId>
+		  <PedLowLeftCoverReloadClipId>RELOAD_LOOP</PedLowLeftCoverReloadClipId>
+		  <PedLowRightCoverReloadClipId>RELOAD_LOOP</PedLowRightCoverReloadClipId>
+		  <PedLowCoverReloadEmptyClipId>RELOAD_LOOP</PedLowCoverReloadEmptyClipId>
+		  <WeaponIdleReloadClipId>W_RELOAD_LOOP</WeaponIdleReloadClipId>
+		  <WeaponIdleReloadEmptyClipId>W_RELOAD_LOOP</WeaponIdleReloadEmptyClipId>
+		  <WeaponAimReloadClipId>W_RELOAD_LOOP</WeaponAimReloadClipId>
+		  <WeaponAimReloadEmptyClipId>W_RELOAD_LOOP</WeaponAimReloadEmptyClipId>
+		  <WeaponLowLeftCoverReloadClipId>W_RELOAD_LOOP</WeaponLowLeftCoverReloadClipId>
+		  <WeaponLowRightCoverReloadClipId>W_RELOAD_LOOP</WeaponLowRightCoverReloadClipId>
+		  <WeaponLowCoverReloadEmptyClipId>W_RELOAD_LOOP</WeaponLowCoverReloadEmptyClipId>
+        </Item>
+        <Item>
+          <Name />
+		  <PedIdleReloadClipId>RELOAD_END</PedIdleReloadClipId>
+		  <PedIdleReloadEmptyClipId>RELOAD_END_EMPTY</PedIdleReloadEmptyClipId>
+		  <PedAimReloadClipId>RELOAD_END</PedAimReloadClipId>
+		  <PedAimReloadEmptyClipId>RELOAD_END_EMPTY</PedAimReloadEmptyClipId>
+		  <PedLowLeftCoverReloadClipId>RELOAD_END</PedLowLeftCoverReloadClipId>
+		  <PedLowRightCoverReloadClipId>RELOAD_END</PedLowRightCoverReloadClipId>
+		  <PedLowCoverReloadEmptyClipId>RELOAD_END_EMPTY</PedLowCoverReloadEmptyClipId>
+		  <WeaponIdleReloadClipId>W_RELOAD_END</WeaponIdleReloadClipId>
+		  <WeaponIdleReloadEmptyClipId>W_RELOAD_END_EMPTY</WeaponIdleReloadEmptyClipId>
+		  <WeaponAimReloadClipId>W_RELOAD_END</WeaponAimReloadClipId>
+		  <WeaponAimReloadEmptyClipId>W_RELOAD_END_EMPTY</WeaponAimReloadEmptyClipId>
+		  <WeaponLowLeftCoverReloadClipId>W_RELOAD_END</WeaponLowLeftCoverReloadClipId>
+		  <WeaponLowRightCoverReloadClipId>W_RELOAD_END</WeaponLowRightCoverReloadClipId>
+		  <WeaponLowCoverReloadEmptyClipId>W_RELOAD_END_EMPTY</WeaponLowCoverReloadEmptyClipId>
+        </Item>
+      </Sections>
+    </Item>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_COMBATSHOTGUN_CLIP_01</Name>
+      <Model>w_sg_pumpshotgunh4_mag1</Model>
+      <LocName>WCT_SHELL</LocName>
+      <LocDesc>WCD_SHELL</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="6" />
+      <ReloadData ref="RELOAD_LOOPED" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_GADGETPISTOL_CLIP_01</Name>
+      <Model>w_pi_singleshoth4_shell</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="1" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MILITARYRIFLE_CLIP_01</Name>
+      <Model>w_ar_bullpuprifleh4_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_AR_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="30" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MILITARYRIFLE_CLIP_02</Name>
+      <Model>w_ar_bullpuprifleh4_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_AR_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="100" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="45" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentScopeInfo">
+      <Name>COMPONENT_MILITARYRIFLE_SIGHT_01</Name>
+      <Model>w_ar_bullpuprifleh4_sight</Model>
+      <LocName>WCT_MRFL_SIGHT</LocName>
+      <LocDesc>WCD_MRFL_SIGHT</LocDesc>
+      <AttachBone>AAPScop</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <CameraHash />
+      <RecoilShakeAmplitude value="0.333000" />
+      <ExtraZoomFactorForAccurateMode value="1.000000" />
+      <Reticule value="0" />
+      <ReticuleHash />
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - Heist4 Pack</InfoBlobName>
+</CWeaponComponentInfoBlob>

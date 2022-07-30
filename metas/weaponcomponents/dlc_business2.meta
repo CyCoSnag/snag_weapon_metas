@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BULLPUPRIFLE_CLIP_01</Name>
+      <Model>w_ar_bullpuprifle_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_BRIF_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="30" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BULLPUPRIFLE_CLIP_02</Name>
+      <Model>w_ar_bullpuprifle_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_BRIF_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="100" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="60" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+	<Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_BULLPUPRIFLE_VARMOD_LOW</Name>
+      <Model>w_ar_bullpuprifle_luxe</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="2" />
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_BULLPUPRIFLE_CLIP_01</ComponentName>
+		  <ComponentModel>w_ar_bullpuprifle_luxe_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_BULLPUPRIFLE_CLIP_02</ComponentName>
+		  <ComponentModel>w_ar_bullpuprifle_luxe_mag2</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_FLSH</ComponentName>
+		  <ComponentModel>w_at_ar_flsh_pdluxe</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_AFGRIP</ComponentName>
+		  <ComponentModel>w_at_ar_afgrip_luxe</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_SCOPE_SMALL</ComponentName>
+		  <ComponentModel>w_at_scope_small_luxe</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_SUPP</ComponentName>
+		  <ComponentModel>w_at_ar_supp_luxe</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - Business 2</InfoBlobName>
+</CWeaponComponentInfoBlob>

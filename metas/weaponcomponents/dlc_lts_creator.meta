@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentScopeInfo">
+      <Name>COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM</Name>
+      <Model>w_at_scope_large</Model>
+      <LocName>WCT_SCOPE_LRG</LocName>
+      <LocDesc>WCD_SCOPE_LRF</LocDesc>
+      <AttachBone>AAPScop</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="5" />
+      <HudRange value="0" />
+      <CameraHash>SNIPER_FIXED_ZOOM_AIM_CAMERA</CameraHash>
+      <RecoilShakeAmplitude value="0.280000" />
+      <ExtraZoomFactorForAccurateMode value="0.000000" />
+      <ReticuleHash>SNIPER_LARGE</ReticuleHash>
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MARKSMANRIFLE_CLIP_01</Name>
+      <Model>w_sr_marksmanrifle_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_MKRF_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MARKSMANRIFLE_CLIP_02</Name>
+      <Model>w_sr_marksmanrifle_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_MKRF_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="16" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_HEAVYSHOTGUN_CLIP_01</Name>
+      <Model>w_sg_heavyshotgun_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_HVSG_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="6" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_HEAVYSHOTGUN_CLIP_02</Name>
+      <Model>w_sg_heavyshotgun_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_HVSG_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="300" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="12" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_MARKSMANRIFLE_VARMOD_LUXE</Name>
+      <Model>W_SR_MarksmanRifle_Luxe</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="2"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_MARKSMANRIFLE_CLIP_01</ComponentName>
+		  <ComponentModel>W_SR_MarksmanRifle_LUXE_Mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_MARKSMANRIFLE_CLIP_02</ComponentName>
+		  <ComponentModel>W_SR_MarksmanRifle_LUXE_Mag2</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_FLSH</ComponentName>
+		  <ComponentModel>W_AT_AR_Flsh_pdLUXE</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_AFGRIP</ComponentName>
+		  <ComponentModel>W_AT_AR_AFGrip_LUXE</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM</ComponentName>
+		  <ComponentModel>W_AT_Scope_Large_LUXE</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_SUPP</ComponentName>
+		  <ComponentModel>W_AT_AR_Supp_Luxe</ComponentModel>
+		</Item>
+	  </ExtraComponents>	
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - LTS Creator</InfoBlobName>
+</CWeaponComponentInfoBlob>

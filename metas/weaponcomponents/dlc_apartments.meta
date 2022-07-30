@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+    <Item type="CWeaponSwapData">
+      <Name>SWAP_SWITCHBLADE</Name>
+      <PedHolsterClipId>holster</PedHolsterClipId>
+      <PedHolsterCrouchClipId>Holster_Crouch</PedHolsterCrouchClipId>
+      <PedHolsterCoverClipId>low_holster</PedHolsterCoverClipId>
+      <PedHolsterDiscardClipId>Discard</PedHolsterDiscardClipId>
+      <PedHolsterCrouchDiscardClipId>discard_crouch</PedHolsterCrouchDiscardClipId>
+      <PedHolsterWeaponClipId>w_holster</PedHolsterWeaponClipId>
+      <PedUnHolsterClipId>unholster</PedUnHolsterClipId>
+      <PedUnHolsterCrouchClipId>Unholster_Crouch</PedUnHolsterCrouchClipId>
+      <PedUnHolsterLeftCoverClipId>low_l_unholster</PedUnHolsterLeftCoverClipId>
+      <PedUnHolsterRightCoverClipId>low_r_unholster</PedUnHolsterRightCoverClipId>
+      <PedUnHolsterWeaponClipId>w_unholster</PedUnHolsterWeaponClipId>
+      <AnimPlaybackRate value="1.0" />
+    </Item>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_REVOLVER_CLIP_01</Name>
+      <Model>w_pi_revolver_Mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_REV_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="6" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+	<Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_REVOLVER_VARMOD_BOSS</Name>
+      <Model>w_pi_revolver_b</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="2"/>
+	  <ExtraComponents />
+    </Item>
+	<Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_REVOLVER_VARMOD_GOON</Name>
+      <Model>w_pi_revolver_g</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="0"/>
+	  <ExtraComponents />
+    </Item>
+	<Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_SWITCHBLADE_VARMOD_BASE</Name>
+      <Model>w_me_switchblade</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="0"/>
+	  <ExtraComponents />
+    </Item>
+	<Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_SWITCHBLADE_VARMOD_VAR1</Name>
+      <Model>w_me_switchblade_b</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="0"/>
+	  <ExtraComponents />
+    </Item>
+	<Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_SWITCHBLADE_VARMOD_VAR2</Name>
+      <Model>w_me_switchblade_g</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="0"/>
+	  <ExtraComponents />
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - Apartments</InfoBlobName>
+</CWeaponComponentInfoBlob>
