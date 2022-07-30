@@ -4,7 +4,7 @@ game 'gta5'
 
 author 'Snag'
 
-version '1.1.2'
+version '1.1.3'
 
 description 'Weapon Meta\'s by Snag'
 
@@ -15,6 +15,7 @@ files {
 
 --  Vehicle weapon meta files
 data_file 'WEAPONINFO_FILE_PATCH' 'metas/vehicle_weapons/*.meta'
-
----- Player weapon meta files.
+--  Weapon component meta files.
+data_file 'WEAPONCOMPONENTSINFO_FILE' 'metas/weaponcomponents/*.meta'
+-- Player weapon meta files.
 data_file 'WEAPONINFO_FILE_PATCH' 'metas/weapons/*.meta'
