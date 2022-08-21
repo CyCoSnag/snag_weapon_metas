@@ -2,11 +2,25 @@ fx_version 'cerulean'
 
 game 'gta5'
 
+lua54 'yes'
+
 author 'Snag'
 
-version '1.1.3'
+version '1.1.4'
 
 description 'Weapon Meta\'s by Snag'
+
+dependencies {
+  '/server:5181',
+}
+
+escrow_ignore {
+  'server/server.lua',
+}
+
+server_script {
+  'server/server.lua',
+}
 
 files {
   'metas/vehicle_weapons/*.meta', 
