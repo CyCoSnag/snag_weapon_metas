@@ -1,4 +1,4 @@
-# Weapon Meta's by Snag [FiveM] [Standalone] [Free]
+# Weapon Metas by Snag [FiveM] [Standalone] [Free]
 
 A FiveM resource that allows server owners to change game weapon's metadata. This can be used to change damage, 
 damage types, ammo count, defaults, camera angles, aiming, recoil, weapon effects, smoke effects, etc.
@@ -25,7 +25,7 @@ The version I'm releasing here includes the original GTAV meta files and DLC met
 
 I will be re-releasing this later on as a paid resource with balance changes more suitable in a role play server. This will include the sniper and less-than-lethal changes showcased here.
 
-Installation: Download the latest release from my Tebex store: https://snag.tebex.io/
+Installation: Download the latest release from my Tebex store: https://snag.tebex.io/package/5259789
 
 or GitHub: https://github.com/CyCoSnag/snag_weapon_metas
 
