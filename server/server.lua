@@ -8,7 +8,7 @@
            if response.version ~= version then
              print(([[^1-------------------------------------------------------
 snag_weapon_metas has an update available! Version: %s
-Visit https://github.com/CyCoSnag/snag_weapon_metas or
+Visit https://github.com/CyCoSnag/snag_weapon_metas
 or https://snag.tebex.io/ for the latest update.
 Changlog: %s
 -------------------------------------------------------^0]]):format(response.version, response.changelog))
