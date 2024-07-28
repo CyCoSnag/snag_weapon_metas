@@ -1,4 +1,4 @@
 {
-    "version": "1.1.4",
-    "changelog": "Updated to add version checks."
+    "version": "1.1.5",
+    "changelog": "Commented manifest to exclude mounting weapon components by default so script can restart while editing. Updated manifest dependencies to latest recommended server build. Added the following weapons: weapon_acidpackage, weapon_battlerifle, weapon_candycane, weapon_hackingdevice, weapon_metaldetector, weapon_pistolxm3, weapon_precisionrifle, weapon_railgunxm3, weapon_snowlauncher, weapon_stunrod, weapon_tacticalrifle, and the weapon_tecpistol from DLC updates."
 }
