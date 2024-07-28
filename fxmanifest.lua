@@ -6,12 +6,12 @@ lua54 'yes'
 
 author 'Snag'
 
-version '1.1.4'
+version '1.1.5'
 
 description 'Weapon Meta\'s by Snag'
 
 dependencies {
-  '/server:5181',
+  '/server:7290',
 }
 
 escrow_ignore {
@@ -31,6 +31,6 @@ files {
 --  Vehicle weapon meta files
 data_file 'WEAPONINFO_FILE_PATCH' 'metas/vehicle_weapons/*.meta'
 --  Weapon component meta files.
-data_file 'WEAPONCOMPONENTSINFO_FILE' 'metas/weaponcomponents/*.meta'
+--data_file 'WEAPONCOMPONENTSINFO_FILE' 'metas/weaponcomponents/*.meta'
 -- Player weapon meta files.
 data_file 'WEAPONINFO_FILE_PATCH' 'metas/weapons/*.meta'
